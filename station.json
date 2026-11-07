@@ -1,53 +1,32 @@
 {
  "format": "myradio/station-1",
- "name": "ものラジオ",
- "description": "電子工作・3Dプリンター・AI の、きのうの気になるニュースを、毎朝 90 秒で。",
- "tagline": "AI・3D 朝のニュース",
+ "name": "リイルヘイラの仮ラジオ",
+ "description": "リイルヘイラがお送りする試験放送です。局名・番組内容は、まだ仮置きです。",
+ "tagline": "試験放送",
  "logo": "logo.svg",
- "url": "https://monoradio102.github.io/myradio/",
- "repo": "https://github.com/monoradio102/myradio",
+ "url": "https://workshop7538315-del.github.io/radio-test/",
+ "repo": "https://github.com/workshop7538315-del/radio-test",
  "language": "ja",
  "languages": [
-  "ja",
-  "en"
+  "ja"
  ],
  "schedule": {
   "every": "day",
-  "time": "06:10",
+  "time": "21:30",
   "timezone": "Asia/Tokyo"
  },
  "episodes": "episodes.json",
  "character": {
   "pack": "character/character.json",
-  "thumbnail": "character/base.png",
-  "note": "AIで生成したキャラクターです"
+  "thumbnail": "character/idle.png",
+  "note": "リイルヘイラのドット絵をもとにしたキャラクターです（電波の姿を仮置き）"
  },
  "credits": [
-  "声：COEIROINK:リリンちゃん"
+  "声：VOICEVOX:暁記ミタマ"
  ],
- "caster": "声：COEIROINK:リリンちゃん",
+ "caster": "リイルヘイラ（声：VOICEVOX:暁記ミタマ）",
  "audio": {
   "dir": "audio",
   "keep_days": 30
- },
- "weather": true,
- "comments": {
-  "giscus": {
-   "repo": "monoradio102/myradio",
-   "repoId": "R_kgDOVjfh2A",
-   "category": "Comments",
-   "categoryId": "DIC_kwDOVjfh2M4DKdQF"
-  }
- },
- "i18n": {
-  "en": {
-   "name": "Mono Radio",
-   "tagline": "Morning news on AI and 3D",
-   "description": "The news worth knowing in electronics, 3D printing and AI, every morning in 90 seconds.",
-   "credits": [
-    "Voice: Kokoro (af_heart)"
-   ],
-   "caster": "Voice: Kokoro (af_heart)"
-  }
  }
 }
