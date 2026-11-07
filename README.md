@@ -1,15 +1,9 @@
-# リイルヘイラの仮ラジオ（試験放送）
+# しおりラジオ
 
-リイルヘイラが、ニュースや日報を読み上げるラジオ局の試験用リポジトリです。
-局名・番組内容はまだ仮置きで、これから育てていきます。
+図書委員長リイルヘイラがお送りする、ニュースと日報のラジオです。
 
-▶ **ON AIR**: https://workshop7538315-del.github.io/radio-test/
+- 聞く場所: https://workshop7538315-del.github.io/radio-test/
+- 放送: 月・火・水 9:00 / 金 11:30 / 木・土・日 21:30
+- 声: VOICEVOX:暁記ミタマ
 
-- プレーヤーは `index.html`、局の設定は `station.json`、台本は `episodes/` にあります
-- 音声は main にはコミットしません。`tools/publish.sh` が直近30日分だけを `gh-pages` に載せます
-
-## クレジット
-
-- 声：VOICEVOX:暁記ミタマ
-- キャスター：リイルヘイラ（電波の姿を仮置き中）
-- 仕組み：[myradio](https://github.com/monoradio102/myradio) テンプレート（monoradio）を利用しています。プログラム（`index.html`、`tools/`）は MIT License です
+番組は、プレイ中のゲームとカードゲームのニュース、買い物まわりの話題、曜日の特別コーナー、その日の日報と「今日のしおり」「明日のしおり」で組み立てます。
