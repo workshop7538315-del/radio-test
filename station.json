@@ -1,8 +1,8 @@
 {
  "format": "myradio/station-1",
- "name": "リイルヘイラの仮ラジオ",
- "description": "リイルヘイラがお送りする試験放送です。局名・番組内容は、まだ仮置きです。",
- "tagline": "試験放送",
+ "name": "しおりラジオ",
+ "description": "図書委員長リイルヘイラがお送りする、ニュースと日報のラジオです。放送は月・火・水の朝9時、金曜の11時30分、木・土・日の夜21時30分。",
+ "tagline": "あなたの毎日に、栞をひとつ",
  "logo": "logo.svg",
  "url": "https://workshop7538315-del.github.io/radio-test/",
  "repo": "https://github.com/workshop7538315-del/radio-test",
@@ -19,7 +19,7 @@
  "character": {
   "pack": "character/character.json",
   "thumbnail": "character/idle.png",
-  "note": "リイルヘイラのドット絵をもとにしたキャラクターです（電波の姿を仮置き）"
+  "note": "リイルヘイラのドット絵をもとにしたキャラクターです"
  },
  "credits": [
   "声：VOICEVOX:暁記ミタマ"
